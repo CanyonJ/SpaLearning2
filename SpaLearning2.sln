@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoursquareAngularJS.Web", "FoursquareAngularJS.Web\FoursquareAngularJS.Web.csproj", "{61F55A0D-8541-496A-8CE5-1E2B14EF67C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoursquareAngularJS.Web.Tests", "FoursquareAngularJS.Web.Tests\FoursquareAngularJS.Web.Tests.csproj", "{A07851CD-62F2-425C-B2BB-6313E7C797D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{C02F34A8-E259-4FE8-9469-D4E6C9814A94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{32A9D6D7-B3EA-431B-97A0-FF50F28BD7A1}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{F2D7C4EC-6524-42A0-B89B-0CF47A8085A7}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\FoursquareAngularJSWeb.json = PublishScripts\Templates\FoursquareAngularJSWeb.json
+		PublishScripts\Templates\FoursquareAngularJSWeb.param.dev.json = PublishScripts\Templates\FoursquareAngularJSWeb.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61F55A0D-8541-496A-8CE5-1E2B14EF67C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F55A0D-8541-496A-8CE5-1E2B14EF67C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F55A0D-8541-496A-8CE5-1E2B14EF67C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F55A0D-8541-496A-8CE5-1E2B14EF67C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07851CD-62F2-425C-B2BB-6313E7C797D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07851CD-62F2-425C-B2BB-6313E7C797D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07851CD-62F2-425C-B2BB-6313E7C797D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07851CD-62F2-425C-B2BB-6313E7C797D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32A9D6D7-B3EA-431B-97A0-FF50F28BD7A1} = {C02F34A8-E259-4FE8-9469-D4E6C9814A94}
+		{F2D7C4EC-6524-42A0-B89B-0CF47A8085A7} = {C02F34A8-E259-4FE8-9469-D4E6C9814A94}
+	EndGlobalSection
+EndGlobal
