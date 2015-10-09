@@ -74,6 +74,11 @@
   <ItemGroup>
     <Content Include="app\app.js" />
     <Content Include="app\controllers\placesExplorerController.js" />
+    <Content Include="app\controllers\placesPhotosController.js" />
+    <Content Include="app\filters\placeNameCategoryFilter.js" />
+    <Content Include="app\services\placesExplorerService.js" />
+    <Content Include="app\services\placesPhotosService.js" />
+    <Content Include="app\views\placesphotos.html" />
     <Content Include="app\views\placesresults.html" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css" />
